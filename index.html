@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI/ML portfolio for Shaik Fayaz: projects, skills, research interests, and engineering work."
+    />
+    <title>Shaik Fayaz | AI/ML Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Shaik Fayaz portfolio home">
+        <span class="brand-mark">SF</span>
+        <span>Shaik Fayaz</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-copy">
+          <p class="eyebrow">AI/ML Discipline</p>
+          <h1>AI/ML Engineer building reliable models from messy real-world data.</h1>
+          <p class="hero-summary">
+            I work across machine learning, deep learning, data analysis, and
+            deployment-focused experimentation to turn ideas into measurable
+            intelligent systems.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button ghost" href="#contact">Get in Touch</a>
+          </div>
+          <div class="quick-stats" aria-label="Portfolio highlights">
+            <div>
+              <strong>08+</strong>
+              <span>Model prototypes</span>
+            </div>
+            <div>
+              <strong>05</strong>
+              <span>ML domains</span>
+            </div>
+            <div>
+              <strong>End-to-end</strong>
+              <span>Data to deployment</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Animated machine learning network visualization">
+          <canvas id="modelCanvas" width="720" height="620"></canvas>
+          <div class="model-panel">
+            <div>
+              <span class="panel-label">Current Focus</span>
+              <strong>Predictive Modeling</strong>
+            </div>
+            <div class="panel-meter" aria-hidden="true">
+              <span style="--value: 82%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-band" aria-label="About Shaik Fayaz">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>Practical AI, readable engineering, measurable outcomes.</h2>
+        </div>
+        <p>
+          My portfolio is centered on applied machine learning: framing problems,
+          preparing data, selecting useful baselines, training models, evaluating
+          tradeoffs, and communicating results clearly. I am especially interested
+          in computer vision, NLP, recommendation systems, time-series forecasting,
+          and responsible AI practices.
+        </p>
+      </section>
+
+      <section id="projects" class="content-section">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects built around model quality and product usefulness.</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual cv-visual" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="project-body">
+              <p class="tag">Computer Vision</p>
+              <h3>Image Classification Pipeline</h3>
+              <p>
+                Built a CNN workflow for image preprocessing, augmentation,
+                training, validation, and performance reporting.
+              </p>
+              <div class="project-meta">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>OpenCV</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual nlp-visual" aria-hidden="true">
+              <span>sentiment</span>
+              <span>intent</span>
+              <span>entities</span>
+            </div>
+            <div class="project-body">
+              <p class="tag">NLP</p>
+              <h3>Text Insight Engine</h3>
+              <p>
+                Designed a text analytics system for cleaning documents,
+                extracting signals, and classifying user intent.
+              </p>
+              <div class="project-meta">
+                <span>Transformers</span>
+                <span>spaCy</span>
+                <span>Pandas</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual forecast-visual" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="project-body">
+              <p class="tag">Forecasting</p>
+              <h3>Demand Forecast Model</h3>
+              <p>
+                Compared statistical baselines and machine learning regressors
+                for trend-aware forecasting and error analysis.
+              </p>
+              <div class="project-meta">
+                <span>Scikit-learn</span>
+                <span>NumPy</span>
+                <span>Matplotlib</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="content-section split-section">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2>Tools and methods I use to move from data to decisions.</h2>
+        </div>
+
+        <div class="skill-layout">
+          <div class="skill-cluster">
+            <h3>Machine Learning</h3>
+            <ul class="pill-list">
+              <li>Supervised Learning</li>
+              <li>Deep Learning</li>
+              <li>Feature Engineering</li>
+              <li>Model Evaluation</li>
+              <li>Hyperparameter Tuning</li>
+            </ul>
+          </div>
+          <div class="skill-cluster">
+            <h3>Data & Deployment</h3>
+            <ul class="pill-list">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>FastAPI</li>
+              <li>Streamlit</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="skill-cluster">
+            <h3>Special Interests</h3>
+            <ul class="pill-list">
+              <li>Computer Vision</li>
+              <li>NLP</li>
+              <li>Recommendation Systems</li>
+              <li>Time Series</li>
+              <li>Responsible AI</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="content-section">
+        <div class="section-heading">
+          <p class="eyebrow">Growth Path</p>
+          <h2>How I approach AI/ML work.</h2>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <div>
+              <h3>Problem Framing</h3>
+              <p>
+                Define the prediction goal, user impact, input data, evaluation
+                metric, and realistic constraints before choosing a model.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span>02</span>
+            <div>
+              <h3>Experimentation</h3>
+              <p>
+                Build baselines first, then iterate through features,
+                architectures, validation strategy, and error analysis.
+              </p>
+            </div>
+          </article>
+          <article>
+            <span>03</span>
+            <div>
+              <h3>Communication</h3>
+              <p>
+                Present results with clear tradeoffs, readable visuals, and
+                practical next steps for product or research decisions.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build intelligent systems that hold up outside the notebook.</h2>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:shaikfayaz@example.com">shaikfayaz@example.com</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>(c) <span id="year"></span> Shaik Fayaz. AI/ML Portfolio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
