@@ -381,7 +381,7 @@ h3 {
   height: 68%;
 }
 
-.yuno-visual {
+.agent-visual {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
@@ -394,7 +394,7 @@ h3 {
   padding: 28px;
 }
 
-.yuno-visual span {
+.agent-visual span {
   position: relative;
   z-index: 2;
   min-height: 48px;
@@ -411,18 +411,18 @@ h3 {
   box-shadow: 7px 7px 0 rgba(12, 124, 114, 0.16);
 }
 
-.yuno-visual span:nth-child(2) {
+.agent-visual span:nth-child(2) {
   background: var(--coral);
   color: #ffffff;
   border-color: var(--coral);
 }
 
-.yuno-visual span:nth-child(3) {
+.agent-visual span:nth-child(3) {
   background: var(--gold);
   border-color: var(--gold);
 }
 
-.yuno-visual span:nth-child(4) {
+.agent-visual span:nth-child(4) {
   background: var(--teal);
   color: #ffffff;
   border-color: var(--teal);
